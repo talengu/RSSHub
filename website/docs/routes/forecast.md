@@ -242,3 +242,18 @@ Please skip the local service area code for `name`, for example `https://outage.
 
 </Route>
 
+### 全国今明后三天天气
+
+<Route author="talengu" example="/weather/56294" path="/weather/:city_id" paramsDesc={['city_id']}>
+
+可通过 city_id 订阅你所在地方的三天天气。
+
+1. 确定省份代码。四川 ASC
+
+http://www.nmc.cn/f/rest/province
+
+2. 确定 city_id 。成都 56294
+
+http://www.nmc.cn/f/rest/province/ASC
+
+</Route>
